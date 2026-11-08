@@ -1,0 +1,30 @@
+Return-Path: <bounce-7731@mailer.shopdeals-promo.test>
+Received: from mx1.example.com (mx1.example.com [192.0.2.10])
+    by inbox.example.com with LMTP; Fri, 6 Nov 2026 14:22:09 +0000
+Received: from mail.shopdeals-promo.test (unknown [203.0.113.66])
+    by mx1.example.com with ESMTP id 4F2A91C0; Fri, 6 Nov 2026 14:22:07 +0000
+Received: from [10.0.0.23] (unknown [198.51.100.14])
+    by mail.shopdeals-promo.test with ESMTPSA; Fri, 6 Nov 2026 14:22:05 +0000
+Authentication-Results: mx1.example.com;
+    spf=pass smtp.mailfrom=mailer.shopdeals-promo.test;
+    dkim=none;
+    dmarc=fail header.from=northbridgebank.example
+From: "Northbridge Bank Security" <security@northbridgebank.example>
+Reply-To: <support-desk@nb-account-help.test>
+To: <alex@example.com>
+Subject: Action required: unusual sign-in detected
+Date: Fri, 6 Nov 2026 14:22:03 +0000
+Message-ID: <20261106142203.7731@mailer.shopdeals-promo.test>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+Dear Customer,
+
+We detected an unusual sign-in to your account from a new device.
+If this was not you, verify your identity within 24 hours or your
+account will be suspended:
+
+http://northbridge-secure-login.test/verify?id=88213
+
+Thank you,
+Northbridge Bank Security Team
