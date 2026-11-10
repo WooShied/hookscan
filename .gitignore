@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+# Real emails can contain private info. Only commit synthetic samples.
+*.eml
+!samples/*.eml
